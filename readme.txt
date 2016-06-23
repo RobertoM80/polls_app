@@ -1,0 +1,1 @@
+This polls app is made with php, sql.

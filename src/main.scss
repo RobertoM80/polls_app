@@ -1,0 +1,122 @@
+@import 'normalize';
+$primary_color: #222222;
+$active_color: white;
+$nav-color: #1F2E40;
+$nav-text-color: #FFFCFF;
+$body-color: #5D8ABF;
+$jumbo-color: #3E5C7F;
+$body-text-color: #E6FFFF;
+
+body {
+	height: 100%;
+	background-color: $body-color;
+}
+.container-fluid {
+	font-family: 'Buda', cursive;
+	color: $body-text-color;
+	.navbar-inverse {
+		background-color: $nav-color;
+		padding-bottom: 25px;
+	}
+	min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+	.nav {
+		color: $nav-text-color;
+   		 
+	}
+
+	.navbar-inverse {
+		.navbar-nav li a {
+			color: $body-text-color;
+			&:hover {
+				color: $active_color;
+			}
+			&.active {
+				color: Moccasin;
+			}
+
+		}
+	}
+
+	
+	
+	.well {
+		width: 50%;
+		margin: auto;
+		margin-top: 5px;
+		color: $nav-color;
+		background-color: $body-text-color;
+	}
+
+	.bg-danger {
+		background-color: #96002B;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	p {
+		padding:10px; 
+		border-radius:5px;
+		border: 1px solid lightgrey;
+	}
+	
+	.jumbotron {
+		margin: auto;
+		margin-top: 100px;
+		padding: 10px;
+		width: 100%;
+		background-color: $jumbo-color;
+		.options {
+			width: 40%;
+			padding-left: 7%;
+			button {
+				margin-top: 10px;
+			}
+		}
+		.chart {
+			margin-left: 200px;
+			button {
+				width: 100%;
+				margin-top: 15px;
+				background-color: #96002B; 
+				color: $body-text-color;
+				&:hover {
+					background-color: #961F46;
+				}
+			}
+		}
+	}
+
+	.new_poll_form {
+		margin-top: 20px;
+		width: 50%;
+	}
+
+	.register {
+		margin-top: 150px;
+		width: 35%;
+		label {
+			text-transform: uppercase;
+		}
+		a {
+			color: #96002B;
+		}
+	}
+
+	footer {
+		height: 50px;
+		padding: 10px;
+		background-color: $nav-color;
+		color: darkgrey;
+		/*position: relative;*/
+		margin-top: 100px;
+
+	}
+}
+
