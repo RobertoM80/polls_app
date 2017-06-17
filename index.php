@@ -5,7 +5,7 @@ include('inc/functions.php');
 $page = 'home polls';
 $array_total_polls = all_polls();
 
-include('inc/header.php');
+include('inc/header.php') ;
 ?>
 
 <div class='jumbotron'>
